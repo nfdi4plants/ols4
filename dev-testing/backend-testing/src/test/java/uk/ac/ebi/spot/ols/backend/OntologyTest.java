@@ -14,7 +14,7 @@ import java.net.URL;
 
 public class OntologyTest {
     private static final String ONTOLOGIES_API_REQUEST = "/api/v2/ontologies";
-    private static final String BACKEND_URL = "http://localhost:8080";
+    private static final String BACKEND_URL = "http://xiaoran-0.dataplant.escience.uni-freiburg.de:8081";
 
     /**
      * This should become a parameterized test accepting an ontologyId as parameter. The result should be compared to the expected api
