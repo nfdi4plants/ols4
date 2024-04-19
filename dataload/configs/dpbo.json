@@ -1,0 +1,36 @@
+{
+  "ontologies": [
+    {
+      "id": "dpbo",
+      "preferredPrefix": "DPBO",
+      "title": "DataPLANT biology ontology",
+      "uri": "http://www.ebi.ac.uk/efo",
+      "description": "The Experimental Factor Ontology (EFO) provides a systematic description of many experimental variables available in EBI databases, and for external projects such as the NHGRI GWAS catalogue. It combines parts of several biological ontologies, such as anatomy, disease and chemical compounds. The scope of EFO is to support the annotation, analysis and visualization of data handled by many groups at the EBI and as the core ontology for OpenTargets.org",
+      "homepage": "https://www.nfdi4plants.org/",
+      "mailing_list": "efo-users@lists.sourceforge.net",
+      "definition_property": [
+        "http://purl.obolibrary.org/obo/IAO_0000115"
+      ],
+      "tracker":"https://github.com/nfdi4plants/nfdi4plants_ontology/issues/",
+      "synonym_property": [
+        "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+        "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+        "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+      ],
+      "hierarchical_property": [
+        "http://purl.obolibrary.org/obo/BFO_0000050",
+        "http://purl.obolibrary.org/obo/RO_0002202"
+      ],
+      "hidden_property": [
+        "http://www.ebi.ac.uk/efo/has_flag"
+      ],
+      "base_uri": [
+        "http://www.ebi.ac.uk/efo/EFO_"
+      ],
+      "reasoner": "OWL2",
+      "oboSlims": false,
+      "ontology_purl": "file:///opt/dataload/testcases/DPBO.owl",
+      "creator":["Dominik Brilhaus","Hajira Jabeen","Kathryn Dumschott"]
+    }
+  ]
+}

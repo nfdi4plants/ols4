@@ -76,7 +76,7 @@ export default function Home() {
           <div className="lg:col-span-3">
             <div className="bg-gradient-to-r from-neutral-light to-white rounded-lg my-8 p-8">
               <div className="text-3xl mb-4 text-neutral-black font-bold">
-                Welcome to the EMBL-EBI Ontology Lookup Service
+                Welcome to the DataPLANT Terminology Lookup Service (use EBI-EMBL OLS4 framework)
               </div>
               <div className="flex flex-nowrap gap-4 mb-4">
                 <SearchBox />
