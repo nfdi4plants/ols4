@@ -1,0 +1,2 @@
+go.owl filter=lfs diff=lfs merge=lfs -text
+uberon.owl filter=lfs diff=lfs merge=lfs -text
