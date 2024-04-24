@@ -154,7 +154,7 @@ export default function Home() {
                   </a>
                 </div>
                 <p>
-                  In addition to terminology services, the DataPLANT team also offer Research Data Management (RDM) tool &thinsp;
+                  In addition to DataPLANT terminology service, the DataPLANT team also offer Research Data Management (RDM) tool &thinsp;
                   <a
                     className="link-default"
                     href={"https://nfdi4plants.org/nfdi4plants.knowledgebase/docs/guides/arcitect_QuickStart_Videos.html"}
@@ -163,7 +163,7 @@ export default function Home() {
                   >
                     ARCitect
                   </a>&thinsp;
-                  and metdata suggestion tool &thinsp;
+                  and &thinsp;
                   <a
                     className="link-default"
                     href={"https://xrzhou.com/metadata/"}
@@ -171,7 +171,7 @@ export default function Home() {
                     target="_blank"
                   >
                     metdata suggestion tool
-                  </a>.&thinsp;In ARCitect, you can use the ontology terms to annotated your data. In metdata suggestion tool, you can find a metadata repository or a metadata checklist to know what term is needed. 
+                  </a>.&thinsp;In ARCitect, you can use the ontology terms to annotated your data. In the metadata suggestion tool, a set of metadata repositories and metadata checklists can be recommended based on the research domain and environment. 
                 </p>
               </div>
               <div className="px-2">
