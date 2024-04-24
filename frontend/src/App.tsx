@@ -21,6 +21,7 @@ import EntityPage from "./pages/ontologies/entities/EntityPage";
 import { getEntity } from "./pages/ontologies/ontologiesSlice";
 import Search from "./pages/search/Search";
 import {Helmet} from "react-helmet";
+import Issue from "./pages/Issue";
 
 class App extends React.Component {
   render() {
@@ -86,7 +87,7 @@ class App extends React.Component {
           <Route path={`/help`} element={<Help />} />
           <Route path={`/ols3help`} element={<OLS3Help />} />
           <Route path={`/about`} element={<About />} />
-          <Route path={`/downloads`} element={<Downloads />} />
+          <Route path={`/issue`} element={<Issue />} />
         </Routes>
         <Footer />
       </BrowserRouter>

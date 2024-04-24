@@ -106,13 +106,19 @@ export default function Home() {
                 <div className="text-2xl mb-3 text-neutral-default">
                   <i className="icon icon-common icon-browse icon-spacer text-yellow-default" />
                   <Link to={"/about"} className="link-default">
-                    About OLS
+                    About DataPLANT Terminology Service
                   </Link>
                 </div>
                 <p>
-                  The Ontology Lookup Service (OLS) is a repository for
-                  biomedical ontologies that aims to provide a single point of
-                  access to the latest ontology versions. You can browse the
+                  The DataPLANT Terminology Service offers a access point for adding missing terms for the 
+                  &thinsp;<a
+                    className="link-default"
+                    href={process.env.REACT_APP_DATAPLANT_HOME}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    DataPLANT
+                  </a> metadata templates. The website is built on top of the OLS from EBI. You can browse the
                   ontologies through the website as well as programmatically via
                   the OLS API. OLS is developed and maintained by the&thinsp;
                   <a

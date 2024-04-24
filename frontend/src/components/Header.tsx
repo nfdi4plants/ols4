@@ -83,16 +83,16 @@ export default function Header({ section }: { section?: string }) {
                 About
               </li>
             </Link>
-            <Link to={`/downloads`}>
+            <Link to={`/issue`}>
               <li
                 role="menuitem"
                 className={`rounded-r-md px-4 py-3 ${
-                  section === "downloads"
+                  section === "issue"
                     ? " bg-opacity-75 bg-neutral-500"
                     : "hover:bg-opacity-50 hover:bg-neutral-500"
                 }`}
               >
-                Downloads
+                Issue
               </li>
             </Link>
           </ul>
