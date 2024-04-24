@@ -76,7 +76,7 @@ export default function Home() {
           <div className="lg:col-span-3">
             <div className="bg-gradient-to-r from-neutral-light to-white rounded-lg my-8 p-8">
               <div className="text-3xl mb-4 text-neutral-black font-bold">
-                Welcome to the DataPLANT Terminology Lookup Service (use EBI-EMBL OLS4 framework)
+                Welcome to the DataPLANT Terminology Service
               </div>
               <div className="flex flex-nowrap gap-4 mb-4">
                 <SearchBox />
@@ -154,61 +154,44 @@ export default function Home() {
                   </a>
                 </div>
                 <p>
-                  In addition to OLS the SPOT team also provides the&thinsp;
+                  In addition to terminology services, the DataPLANT team also offer Research Data Management (RDM) tool &thinsp;
                   <a
                     className="link-default"
-                    href={process.env.REACT_APP_SPOT_OXO}
+                    href={"https://nfdi4plants.org/nfdi4plants.knowledgebase/docs/guides/arcitect_QuickStart_Videos.html"}
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    OxO
+                    ARCitect
                   </a>&thinsp;
-                  and&thinsp;
+                  and Ontology  &thinsp;
                   <a
                     className="link-default"
-                    href={process.env.REACT_APP_SPOT_ZOOMA}
+                    href={"https://plan.nfdi4plants.org"}
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    ZOOMA
+                    DataPLAN
                   </a>&thinsp;
-                  services. OxO provides cross-ontology mappings between terms
-                  from different ontologies. ZOOMA is a service to assist in
-                  mapping data to ontologies in OLS.
+                  . In ARCitect, you can use the ontology terms to annotated your data. In DataPLAN, you can create a DMP 
                 </p>
               </div>
               <div className="px-2">
                 <div className="text-2xl mb-3 text-neutral-default">
                   <i className="icon icon-common icon-exclamation-triangle icon-spacer text-yellow-default" />
-                  <a
-                    href={`${process.env.REACT_APP_SPOT_OLS4_REPO}/issues`}
-                    className="link-default"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    Report an Issue
-                  </a>
+                  <Link to="issue" rel="noopener noreferrer" className="link-default">Report an Issue</Link>
                 </div>
                 <p>
                   For feedback, enquiries or suggestion about OLS or to request
-                  a new ontology please use our&thinsp;
+                  a new ontology please use this&thinsp;
+                  <Link className="link-default" rel="noopener noreferrer" to="issue">issue submission questionnaire </Link>
+                  . For current open issues please have a look here&thinsp;
                   <a
-                    href={`${process.env.REACT_APP_SPOT_OLS4_REPO}/issues`}
                     className="link-default"
+                    href="https://github.com/nfdi4plants/nfdi4plants_ontology/issues"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    GitHub issue tracker
-                  </a>
-                  . For announcements relating to OLS, such as new releases and
-                  new features sign up to the&thinsp;
-                  <a
-                    className="link-default"
-                    href={process.env.REACT_APP_SPOT_OLS_ANNOUNCE}
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    OLS announce mailing list
+                    DataPLANT Terminology Service Issue Tracker
                   </a>
                   .
                 </p>
