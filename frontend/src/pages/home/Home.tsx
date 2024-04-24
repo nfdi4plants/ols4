@@ -85,8 +85,8 @@ export default function Home() {
                 <div className="text-neutral-black">
                   <span>
                     Examples:&nbsp;
-                    <Link to={"/search?q=diabetes"} className="link-default">
-                      diabetes
+                    <Link to={"/search?q=plant age"} className="link-default">
+                      plant age
                     </Link>
                     &#44;&nbsp;
                     <Link to={"/search?q=GO:0098743"} className="link-default">
@@ -163,16 +163,15 @@ export default function Home() {
                   >
                     ARCitect
                   </a>&thinsp;
-                  and Ontology  &thinsp;
+                  and metdata suggestion tool &thinsp;
                   <a
                     className="link-default"
-                    href={"https://plan.nfdi4plants.org"}
+                    href={"https://xrzhou.com/metadata/"}
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    DataPLAN
-                  </a>&thinsp;
-                  . In ARCitect, you can use the ontology terms to annotated your data. In DataPLAN, you can create a DMP 
+                    metdata suggestion tool
+                  </a>.&thinsp;In ARCitect, you can use the ontology terms to annotated your data. In metdata suggestion tool, you can find a metadata repository or a metadata checklist to know what term is needed. 
                 </p>
               </div>
               <div className="px-2">
@@ -181,7 +180,7 @@ export default function Home() {
                   <Link to="issue" rel="noopener noreferrer" className="link-default">Report an Issue</Link>
                 </div>
                 <p>
-                  For feedback, enquiries or suggestion about OLS or to request
+                  For feedback, enquiries or suggestion about terminology service or to request
                   a new ontology please use this&thinsp;
                   <Link className="link-default" rel="noopener noreferrer" to="issue">issue submission questionnaire </Link>
                   . For current open issues please have a look here&thinsp;
