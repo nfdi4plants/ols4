@@ -15,7 +15,7 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="OLS is a repository for biomedical ontologies that aims to provide a single point of access to the latest ontology versions"
+      content="The DataPLANT Terminology Service aims to help researchers to find terms for metadata annotation. You can also adding missing terms of any ontology."
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -32,7 +32,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Ontology Lookup Service (OLS)</title>
+    <title>DataPLANT Terminology Services</title>
 
     	<!-- for graph view -->
         <link rel="stylesheet" href="%PUBLIC_URL%/legacy/OLS-graphview.css" />
