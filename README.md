@@ -1,3 +1,13 @@
+This is the terminology service of DataPLANT created from a fork of the OLS4.
+
+![image](https://github.com/user-attachments/assets/a1c79f1b-648d-445f-a702-e3309719c7e9)
+
+
+
+
+
+
+
 <a href="https://github.com/EBISPOT/ols4/actions/workflows/test.yml"><img src="https://github.com/EBISPOT/ols4/actions/workflows/test.yml/badge.svg"/></a>
 
 OLS4 is available at <b>[https://www.ebi.ac.uk/ols4/](https://www.ebi.ac.uk/ols4/)</b>. Please report any issues to the
