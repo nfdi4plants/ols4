@@ -6,26 +6,22 @@ import com.google.gson.*;
 import org.apache.commons.io.IOUtils;
 import org.junit.jupiter.api.Test;
 import uk.ac.ebi.ols.apitester.Ols4ApiTester;
-
-import java.io.IOException;
+                                                                                                                                                                                                                   import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class OntologyTest {
     private static final String ONTOLOGIES_API_REQUEST = "/api/v2/ontologies";
-    private static final String BACKEND_URL = "http://xiaoran-0.dataplant.escience.uni-freiburg.de:8081";
+    private static final String BACKEND_URL = "http://ont.xrzhou.com:8081";
 
     /**
      * This should become a parameterized test accepting an ontologyId as parameter. The result should be compared to the expected api
      * output. This should depend on the apitester4 and perhaps move there.
      *
-     * Before this can work we need to:
-     * 1. split generation of expected output for ontologies for each ontology to be in its own file.
+     * Before this can work we need to:                                                                                                                                                                                 * 1. split generation of expected output for ontologies for each ontology to be in its own file.
      * 2. docker needs to work on Linux (so that Henriette can actually run this)
-     * 3. apitester4 should be extended to allow testing of single ontology. Currently it only tests
-     *
-     * @param ontologyId
+     * 3. apitester4 should be extended to allow testing of single ontology. Currently it only tests   *                                                                                                                                                                                                     [51/854]     * @param ontologyId
      */
     @Test
     void getOntologyTest(/*String ontologyId*/) {

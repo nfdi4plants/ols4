@@ -5,7 +5,7 @@ services:
       volumes:
         - ols4-solr-data:/opt/solr/server/solr:rw
         - ols4-neo4j-data:/opt/neo4j/data:rw
-        - ./${OLS4_CONFIG:?OLS4 dataload requires a config file}:/mnt/config.json:ro
+        - ./dataload/configs/dpbo.json:/mnt/config.json:ro
         - ./testcases:/opt/dataload/testcases:ro
           #- ./docker_out:/tmp/out:rw
       command: ./dataload.dockersh ${OLS4_DATALOAD_ARGS:-}

@@ -166,7 +166,7 @@ export default function Home() {
                   and &thinsp;
                   <a
                     className="link-default"
-                    href={"https://xrzhou.com/metadata/"}
+                    href={"https://https://nfdi4plants.org/nfdi4plants.knowledgebase/docs/implementation/MetadataQuiz.html"}
                     rel="noopener noreferrer"
                     target="_blank"
                   >
