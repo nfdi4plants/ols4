@@ -24,7 +24,7 @@ export default function Header({ section }: { section?: string }) {
             <img
               alt="OLS logo"
               className="h-24 inline-block"
-              src={urlJoin(process.env.PUBLIC_URL!, "/logo.png")}
+              src={urlJoin(process.env.PUBLIC_URL!, "/DataPLANT_Terminology.png")}
             />
           </a>
         </div>
@@ -83,16 +83,16 @@ export default function Header({ section }: { section?: string }) {
                 About
               </li>
             </Link>
-            <Link to={`/issue`}>
+            <Link to={`/downloads`}>
               <li
                 role="menuitem"
                 className={`rounded-r-md px-4 py-3 ${
-                  section === "issue"
+                  section === "downloads"
                     ? " bg-opacity-75 bg-neutral-500"
                     : "hover:bg-opacity-50 hover:bg-neutral-500"
                 }`}
               >
-                Issue
+                Downloads
               </li>
             </Link>
           </ul>

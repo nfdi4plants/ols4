@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="407.72644"
+   height="300.28894"
+   viewBox="0 0 407.72644 300.28894"
+   version="1.1"
+   xml:space="preserve"
+   style="clip-rule:evenodd;fill-rule:evenodd;stroke-linecap:round;stroke-miterlimit:8"
+   id="svg24"
+   sodipodi:docname="DataPLANT_logo_square_bg_transparent.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   inkscape:export-filename="DataPLANT_Terminology.png"
+   inkscape:export-xdpi="60"
+   inkscape:export-ydpi="60"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs24" /><sodipodi:namedview
+   id="namedview24"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="0.95679012"
+   inkscape:cx="383.05161"
+   inkscape:cy="100.85806"
+   inkscape:window-width="1920"
+   inkscape:window-height="1013"
+   inkscape:window-x="-9"
+   inkscape:window-y="-9"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="g13" />
+    <g
+   transform="translate(-930.02524,-55.803088)"
+   id="g24">
+        <g
+   transform="matrix(0.253011,0,0,0.253011,859.638,-273.305)"
+   id="g23">
+            <g
+   transform="matrix(0.745587,0,0,1.6856,0.697917,-1006.92)"
+   id="g1">
+                <rect
+   x="245.61301"
+   y="1238.21"
+   width="2146.1399"
+   height="949.297"
+   style="fill:none"
+   id="rect1" />
+            </g>
+            <g
+   id="g22">
+                
+                <g
+   transform="matrix(0.500232,0,0,0.499284,686.194,1431.8378)"
+   id="g17">
+                    <g
+   transform="scale(667)"
+   id="g13">
+                        
+                    <text
+   xml:space="preserve"
+   style="font-size:0.632374px;line-height:1.25;font-family:Gulim;-inkscape-font-specification:Gulim;fill:#4fb3d9;stroke-width:0.011857"
+   x="1.8287572"
+   y="0.735847"
+   id="text24"
+   transform="scale(0.99905208,1.0009488)"><tspan
+     sodipodi:role="line"
+     id="tspan24"
+     style="font-size:0.632374px;text-align:center;text-anchor:middle;fill:#4fb3d9;stroke-width:0.011857"
+     x="1.8287572"
+     y="0.735847">DataPLANT</tspan><tspan
+     sodipodi:role="line"
+     style="font-size:0.632374px;text-align:center;text-anchor:middle;fill:#4fb3d9;stroke-width:0.011857"
+     x="1.8287572"
+     y="1.5263145"
+     id="tspan25">Terminology</tspan><tspan
+     sodipodi:role="line"
+     style="font-size:0.632374px;text-align:center;text-anchor:middle;fill:#4fb3d9;stroke-width:0.011857"
+     x="1.8287572"
+     y="2.316782"
+     id="tspan26">Service</tspan></text></g>
+                    
+                    
+                    
+                </g>
+                <g
+   transform="matrix(1,0,0,1.31886,-586.776,-418.709)"
+   id="g21">
+                    <g
+   transform="matrix(0.0625289,0,0,0.0624105,50.3566,1303.58)"
+   id="g18">
+                        <path
+   d="m 14282,3229 c 2204,2814 1710,6881 -1104,9085"
+   style="fill:none;stroke:#acacac;stroke-width:300.28px"
+   id="path17" />
+                    </g>
+                    <g
+   transform="matrix(0.0625289,0,0,0.0624105,50.3566,1303.58)"
+   id="g19">
+                        <path
+   d="m 18949,2577 c -2204,2813 -1709,6881 1104,9085"
+   style="fill:none;stroke:#acacac;stroke-width:300.28px"
+   id="path18" />
+                    </g>
+                    <g
+   transform="matrix(0.0625289,0,0,0.0624105,50.3566,1303.58)"
+   id="g20">
+                        <path
+   d="m 14421,153 c 3599,4596 3203,10917 -885,14119"
+   style="fill:none;stroke:#acacac;stroke-width:300.28px"
+   id="path19" />
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
